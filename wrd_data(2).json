@@ -1,0 +1,58 @@
+{
+  "titel": "1",
+  "art": "Wettbewerblicher Dialog",
+  "notiz": "Dies ist meine Notiz zur Vergabe",
+  "az": "1",
+  "wert": 1,
+  "norm": "richtwert",
+  "kritSaved": true,
+  "kriterien": [
+    {
+      "id": "vlw2mi8x",
+      "name": "Neues Merkmal",
+      "gewicht": 100,
+      "typ": "leistung",
+      "skala": 100
+    }
+  ],
+  "bieter": [
+    {
+      "id": "1m49g3lh",
+      "firma": "1",
+      "typ": "AG",
+      "ap": "",
+      "eig": "ja",
+      "note": "Anmerkungstext der etwas länger ist"
+    },
+    {
+      "id": "d0t3o1t6",
+      "firma": "2",
+      "typ": "KG",
+      "ap": "",
+      "eig": "ja",
+      "note": ""
+    }
+  ],
+  "angebote": [
+    {
+      "id": "ua7ddrws",
+      "bieterId": "1m49g3lh",
+      "bez": "Erstangebot",
+      "preis": 2,
+      "note": "",
+      "leistung": {
+        "vlw2mi8x": 33
+      }
+    },
+    {
+      "id": "fotiu3by",
+      "bieterId": "d0t3o1t6",
+      "bez": "Erstangebot",
+      "preis": 3,
+      "note": "",
+      "leistung": {
+        "vlw2mi8x": 45
+      }
+    }
+  ]
+}
